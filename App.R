@@ -24,7 +24,6 @@ options(shiny.maxRequestSize = 1000 * 1024^2)
 source("Global.R")
 
 # Define UI for visualisation ----
-source("UI.R")
 
 ui <- navbarPage("Instream large wood on the River Torridge", id = 'nav',
                  tabPanel("Map", 

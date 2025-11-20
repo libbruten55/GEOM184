@@ -20,7 +20,6 @@ library(leafem)
 
 options(shiny.maxRequestSize = 1000 * 1024^2)
 
-
 source("Global.R")
 
 # Define UI for visualisation ----
